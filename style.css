@@ -657,22 +657,22 @@ body #middle #littleHouse .trangleRoof{
 }
 
 body #middle #littleHouse .Roof{
-	height:35vh;
-	width:17vw;
-	background:#013990;
-	position:absolute;
-	z-index:-1;
-	margin-top:-10.5vh;
-	margin-left:3.7vw;
-	transform:skew(-35deg, -5deg);
-	animation:MwTR 0.5s 10.5s normal both;
+    height: 35vh;
+    width: 17vw;
+    background: #013990;
+    position: absolute;
+    z-index: -1;
+    margin-top: -22.5vh;
+    margin-left: 3.7vw;
+    transform: skew(-33deg, -5deg);
+    animation: MwTR 0.5s 10.5s normal both;
 }
 @keyframes MwTR {
 	from {width:0;}to{width:17vw}
 }
 
 body #middle #longrightHouse{
-	margin-left:25vw;
+	margin-left:50vw;
 	position:absolute;
 	display:flex;
 	justify-content:center;
